@@ -1,37 +1,38 @@
-import React from 'react'
+import React from 'react';
 import {
-    Drawer,
-    DrawerClose,
-    DrawerContent,
-    DrawerDescription,
-    DrawerFooter,
-    DrawerHeader,
-    DrawerTitle,
-    DrawerTrigger,
-  } from "@/components/ui/drawer"
-import { Button } from './ui/button'
-  
+	Drawer,
+	DrawerClose,
+	DrawerContent,
+	DrawerDescription,
+	DrawerFooter,
+	DrawerHeader,
+	DrawerTitle,
+	DrawerTrigger,
+} from '@/components/ui/drawer';
+import { Button } from './ui/button';
 
 const DrawerShadcn = () => {
-  return (
-    <div>
-        <Drawer>
-  <DrawerTrigger>Open</DrawerTrigger>
-  <DrawerContent>
-    <DrawerHeader>
-      <DrawerTitle>Are you absolutely sure?</DrawerTitle>
-      <DrawerDescription>This action cannot be undone.</DrawerDescription>
-    </DrawerHeader>
-    <DrawerFooter>
-      <Button>Submit</Button>
-      <DrawerClose>
-        <Button variant="outline">Cancel</Button>
-      </DrawerClose>
-    </DrawerFooter>
-  </DrawerContent>
-</Drawer>
-    </div>
-  )
-}
+	return (
+		<div>
+			<Drawer>
+				<DrawerTrigger>
+					<Button variant='outline'>Open</Button>
+				</DrawerTrigger>
+				<DrawerContent>
+					<DrawerHeader>
+						<DrawerTitle>Are you absolutely sure?</DrawerTitle>
+						<DrawerDescription>This action cannot be undone.</DrawerDescription>
+					</DrawerHeader>
+					<DrawerFooter>
+						<Button>Submit</Button>
+						<DrawerClose>
+							<Button variant='outline'>Cancel</Button>
+						</DrawerClose>
+					</DrawerFooter>
+				</DrawerContent>
+			</Drawer>
+		</div>
+	);
+};
 
-export default DrawerShadcn
+export default DrawerShadcn;
