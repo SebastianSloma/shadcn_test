@@ -1,7 +1,9 @@
-import React,{useState} from 'react';
+import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Calendar } from '@/components/ui/calendar';
 import DrawerShadcn from '@/components/DrawerShadcn';
+import { ToastDestructive } from '@/components/Toastt';
+
 
 
 const page = () => {
@@ -17,6 +19,9 @@ const page = () => {
 				className='rounded-md border'
 			/>
 			<DrawerShadcn/>
+			<div>
+				<ToastDestructive/>
+			</div>
 		</div>
 	);
 };
