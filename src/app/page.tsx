@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Calendar } from '@/components/ui/calendar';
 import DrawerShadcn from '@/components/DrawerShadcn';
 import { ToastDestructive } from '@/components/Toastt';
+import { Acordion } from '@/components/Acordion';
 
 
 
@@ -21,6 +22,9 @@ const page = () => {
 			<DrawerShadcn/>
 			<div>
 				<ToastDestructive/>
+			</div>
+			<div>
+				<Acordion/>
 			</div>
 		</div>
 	);
