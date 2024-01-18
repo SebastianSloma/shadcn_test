@@ -4,6 +4,7 @@ import { Calendar } from '@/components/ui/calendar';
 import DrawerShadcn from '@/components/DrawerShadcn';
 import { ToastWithAction } from '@/components/ToastWithAction';
 import { Acordion } from '@/components/Acordion';
+import { TableDemo } from '@/components/TableDemo';
 
 const page = () => {
 	return (
@@ -18,6 +19,9 @@ const page = () => {
 			</div>
 			<div>
 				<Acordion />
+			</div>
+			<div>
+				<TableDemo/>
 			</div>
 		</div>
 	);

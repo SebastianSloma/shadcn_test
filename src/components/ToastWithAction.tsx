@@ -8,7 +8,7 @@ export function ToastWithAction() {
 	const { toast } = useToast();
 
 	return (
-		<div>
+		
 			<Button
 				variant='outline'
 				onClick={() => {
@@ -20,6 +20,6 @@ export function ToastWithAction() {
 				}}>
 				Show Toast
 			</Button>
-		</div>
+		
 	);
 }

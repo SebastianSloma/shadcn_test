@@ -13,25 +13,23 @@ import { Button } from './ui/button';
 
 const DrawerShadcn = () => {
 	return (
-		<div>
-			<Drawer>
-				<DrawerTrigger>
-					<Button variant='outline'>Open</Button>
-				</DrawerTrigger>
-				<DrawerContent>
-					<DrawerHeader>
-						<DrawerTitle>Are you absolutely sure?</DrawerTitle>
-						<DrawerDescription>This action cannot be undone.</DrawerDescription>
-					</DrawerHeader>
-					<DrawerFooter>
-						<Button>Submit</Button>
-						<DrawerClose>
-							<Button variant='outline'>Cancel</Button>
-						</DrawerClose>
-					</DrawerFooter>
-				</DrawerContent>
-			</Drawer>
-		</div>
+		<Drawer>
+			<DrawerTrigger>
+				<Button variant='outline'>Open</Button>
+			</DrawerTrigger>
+			<DrawerContent>
+				<DrawerHeader>
+					<DrawerTitle>Are you absolutely sure?</DrawerTitle>
+					<DrawerDescription>This action cannot be undone.</DrawerDescription>
+				</DrawerHeader>
+				<DrawerFooter>
+					<Button>Submit</Button>
+					<DrawerClose>
+						<Button variant='outline'>Cancel</Button>
+					</DrawerClose>
+				</DrawerFooter>
+			</DrawerContent>
+		</Drawer>
 	);
 };
 
